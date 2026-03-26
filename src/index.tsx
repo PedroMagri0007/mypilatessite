@@ -23,7 +23,7 @@ app.get('/', (c) => {
         <div class="hero-overlay"></div>
         <div class="container">
           <div class="hero-content">
-            <span class="hero-badge"><i class="fas fa-leaf"></i> Studios em Carnaxide & Oeiras</span>
+            <span class="hero-badge"><i class="fas fa-leaf"></i> Estúdios em Carnaxide & Oeiras</span>
             <h1>Descobre o teu<br /><em>equilíbrio perfeito</em></h1>
             <p class="hero-desc">
               No MyPilates acreditamos que movimento inteligente transforma corpos e mentes.
@@ -119,11 +119,11 @@ app.get('/', (c) => {
               </div>
               <div class="class-card-body">
                 <span class="class-tag">Todos os níveis</span>
-                <h3>Reformer Pilates</h3>
+                <h3>Pilates</h3>
                 <p>Trabalha força, controlo e alinhamento com o equipamento mais versátil do Pilates.</p>
                 <div class="class-meta">
-                  <span><i class="fas fa-clock"></i> 55 min</span>
-                  <span><i class="fas fa-users"></i> Máx. 6 pessoas</span>
+                  <span><i class="fas fa-clock"></i> 50 min</span>
+                  <span><i class="fas fa-users"></i> Máx. 2 pessoas/instrutor</span>
                 </div>
               </div>
             </div>
@@ -131,16 +131,6 @@ app.get('/', (c) => {
               <div class="class-card-img">
                 <img src="https://sspark.genspark.ai/cfimages?u1=E%2FP9ZeasfSZ6iNpbEPdSckTzbtGb8wfiOcwrtt4HXwgdN8NhVO7vQ75FcjupdV29RVB%2B2FgtbYXvhj7PQKbfep4kX%2B%2FDxLkoECRLIAUTVcCfuCOb2z084B5%2FhQywzytyL8gCRe%2BU5p1cXJQZ0yzF4gE%3D&u2=cKvkox1lFm24nqXX&width=2560" alt="Mat Pilates" />
               </div>
-              <div class="class-card-body">
-                <span class="class-tag">Iniciante</span>
-                <h3>Mat Pilates</h3>
-                <p>A essência do método original. Ideal para quem começa ou quer aprofundar os fundamentos.</p>
-                <div class="class-meta">
-                  <span><i class="fas fa-clock"></i> 60 min</span>
-                  <span><i class="fas fa-users"></i> Máx. 10 pessoas</span>
-                </div>
-              </div>
-            </div>
             <div class="class-card fade-in">
               <div class="class-card-img">
                 <img src="https://sspark.genspark.ai/cfimages?u1=kGRqGPNH8V4%2FYV%2FO0MpWITnNX3FTyvIwkXywm%2BwGQuAPLojoyfbmnnleAOuLZu0NKjjV%2FuMy1sNwZmMsl7WPglTnmdg2M%2BHpfKWply1XRMYmgguAezougBh46ynFx8Gx%2BeufGr8YXonffSrY%2F4DXIthnDsTrfWO2l23WsYqVtcHC7tDWBvNLoZBvRW%2BKqkV4Yx7hhzpp%2BUOOtgMsQZR3zYq2BZ6%2FUykuxpBBYE6eV5kjBA%3D%3D&u2=GCQT0mdsbcUJRHAk&width=2560" alt="Clínico" />
@@ -151,7 +141,7 @@ app.get('/', (c) => {
                 <p>Programa personalizado para reabilitação, dores crónicas e condições específicas.</p>
                 <div class="class-meta">
                   <span><i class="fas fa-clock"></i> 50 min</span>
-                  <span><i class="fas fa-users"></i> Individual / Duo</span>
+                  <span><i class="fas fa-users"></i> Máx. 2 pessoas/instrutor</span>
                 </div>
               </div>
             </div>
