@@ -201,7 +201,7 @@ app.get('/', (c) => {
         <div class="container fade-in">
           <span class="section-label" style="color:var(--sage-light)">Começa já hoje</span>
           <h2>A tua primeira aula é grátis</h2>
-          <p>Sem compromisso. Experimenta qualquer aula nos nossos dois studios e descobre o MyPilates.</p>
+          <p>Sem compromisso. Experimenta qualquer aula nos nossos dois estúdios e descobre o MyPilates.</p>
           <a href="/marcacoes" class="btn btn-light btn-lg">
             <i class="fas fa-calendar-check"></i> Reservar Aula Experimental
           </a>
@@ -713,7 +713,7 @@ app.get('/aulas-experimentais', (c) => {
               </div>
               <div class="form-row">
                 <div class="form-group">
-                  <label>Studio preferido</label>
+                  <label>Estúdio</label>
                   <select name="studio">
                     <option value="">Seleciona...</option>
                     <option>Carnaxide</option>
@@ -725,7 +725,8 @@ app.get('/aulas-experimentais', (c) => {
                   <label>Tipo de aula</label>
                   <select name="class_type">
                     <option value="">Seleciona...</option>
-                    <option>Reformer Pilates</option>
+                    <option>Pilates</option>
+                    <option>Pilates Clínico</option>
                   </select>
                 </div>
               </div>
@@ -778,7 +779,7 @@ app.get('/marcacoes', (c) => {
                   <input type="tel" name="phone" placeholder="+351 9XX XXX XXX" />
                 </div>
                 <div class="form-group">
-                  <label>Studio *</label>
+                  <label>Estúdio *</label>
                   <select name="studio" required>
                     <option value="">Seleciona...</option>
                     <option>Carnaxide</option>
@@ -791,7 +792,7 @@ app.get('/marcacoes', (c) => {
                   <label>Tipo de aula *</label>
                   <select name="class_type" required>
                     <option value="">Seleciona...</option>
-                    <option>Reformer Pilates</option>
+                    <option>Pilates</option>
                     <option>Pilates Clínico</option>
                   </select>
                 </div>
