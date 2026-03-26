@@ -27,7 +27,7 @@ app.get('/', (c) => {
             <h1>Descobre o teu<br /><em>equilíbrio perfeito</em></h1>
             <p class="hero-desc">
               No MyPilates acreditamos que movimento inteligente transforma corpos e mentes.
-              Aulas para todos os níveis, equipamentos de última geração e instrutores certificados.
+              Aulas para todos os níveis, equipamentos de última geração e instrutores/fisioterapeutas certificados.
             </p>
             <div class="hero-actions">
               <a href="/marcacoes" class="btn btn-primary btn-lg"><i class="fas fa-calendar-plus"></i> Agendar Aula</a>
@@ -47,18 +47,18 @@ app.get('/', (c) => {
           <div class="stats-grid">
             <div class="stat-item fade-in">
               <div class="stat-number">2</div>
-              <div class="stat-label">Studios</div>
+              <div class="stat-label">Estúdios</div>
             </div>
             <div class="stat-item fade-in">
-              <div class="stat-number">500+</div>
+              <div class="stat-number">200+</div>
               <div class="stat-label">Clientes Ativos</div>
             </div>
             <div class="stat-item fade-in">
-              <div class="stat-number">15+</div>
-              <div class="stat-label">Tipos de Aulas</div>
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Anos de Experiência</div>
             </div>
             <div class="stat-item fade-in">
-              <div class="stat-number">8</div>
+              <div class="stat-number">7</div>
               <div class="stat-label">Instrutores Certificados</div>
             </div>
           </div>
@@ -82,21 +82,21 @@ app.get('/', (c) => {
               <h2 class="section-title">Pilates com propósito,<br />ciência e paixão</h2>
               <div class="divider"></div>
               <p class="section-desc">
-                O MyPilates nasceu da convicção de que o movimento é medicina. Desde a nossa abertura,
+                O MyPilates nasceu da convicção de que o movimento é sinónimo de saúde. Desde a nossa abertura,
                 temos ajudado centenas de pessoas a melhorar a sua postura, força, flexibilidade e bem-estar geral.
               </p>
               <p class="section-desc mt-4">
-                Com duas unidades na Área Metropolitana de Lisboa — Carnaxide e Oeiras — levamos o melhor
-                do método Pilates a perto de si, num ambiente acolhedor e sofisticado.
+                Com dois estúdios — Carnaxide e Oeiras — levamos o melhor
+                do método Pilates para perto de si, num ambiente acolhedor e sofisticado.
               </p>
               <ul class="about-list">
-                <li><i class="fas fa-check-circle"></i> Instrutores certificados pela Stott Pilates® & PHI</li>
-                <li><i class="fas fa-check-circle"></i> Equipamentos Balanced Body® de última geração</li>
-                <li><i class="fas fa-check-circle"></i> Turmas pequenas com atenção personalizada</li>
-                <li><i class="fas fa-check-circle"></i> Programa especial pré e pós-natal disponível</li>
+                <li><i class="fas fa-check-circle"></i> Instrutores/Fisioterapeutas certificados</li>
+                <li><i class="fas fa-check-circle"></i> Equipamentos de última geração</li>
+                <li><i class="fas fa-check-circle"></i> Aulas com 2 alunos por intrutor para maximixar a personalização</li>
+                <li><i class="fas fa-check-circle"></i> Aulas adaptadas às condições físicas de cada aluno</li>
                 <li><i class="fas fa-check-circle"></i> Estacionamento gratuito em ambas as unidades</li>
               </ul>
-              <a href="/sobre-nos" class="btn btn-outline mt-8">Conhece a nossa história</a>
+              <a href="/sobre-nos" class="btn btn-outline mt-8">Conheça a nossa história</a>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ app.get('/', (c) => {
             <span class="section-label">As Nossas Aulas</span>
             <h2 class="section-title">Encontra a aula certa para ti</h2>
             <p class="section-desc">
-              Do reformer ao mat, temos aulas para todos os níveis e objetivos.
+              As nossas aulas são adaptadas às condições físicas de cada aluno.
             </p>
           </div>
           <div class="classes-grid">
