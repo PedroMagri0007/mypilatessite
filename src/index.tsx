@@ -159,35 +159,35 @@ app.get('/', (c) => {
             <div class="testimonial-card fade-in">
               <div class="testimonial-quote">"</div>
               <div class="stars">★★★★★</div>
-              <p class="testimonial-text">O MyPilates transformou completamente a minha postura. Sofria de dores crónicas nas costas e após 3 meses de aulas regulares a diferença é incrível!</p>
+              <p class="testimonial-text">Adoro!! Excelentes profissionais e de grande simpatia! Tem sido um excelente aliado na manutenção física, tem-me ajudado imenso no alívio das dores na coluna e melhorei imenso a nível de postura no meu dia-a-dia! Recomendo!!</p>
               <div class="testimonial-author">
                 <div class="testimonial-avatar">A</div>
                 <div>
-                  <div class="testimonial-name">Ana Ferreira</div>
-                  <div class="testimonial-since">Cliente desde 2022 · Carnaxide</div>
+                  <div class="testimonial-name">Rita Brito</div>
+                  <div class="testimonial-since">Cliente desde 2024 · Carnaxide</div>
                 </div>
               </div>
             </div>
             <div class="testimonial-card fade-in">
               <div class="testimonial-quote">"</div>
               <div class="stars">★★★★★</div>
-              <p class="testimonial-text">A equipa é absolutamente fantástica. A instrutora conhece-me bem e adapta sempre as aulas às minhas necessidades. O ambiente é de luxo!</p>
+              <p class="testimonial-text">Boas instalações e excelente acompanhamento. Prática de pilates personalizada e adaptada às minhas necessidades de mobilidade, flexibilidade e força. Recomendo vivamente ambos os estudios.</p>
               <div class="testimonial-author">
                 <div class="testimonial-avatar">M</div>
                 <div>
-                  <div class="testimonial-name">Miguel Santos</div>
-                  <div class="testimonial-since">Cliente desde 2023 · Oeiras</div>
+                  <div class="testimonial-name">Carla Alonso</div>
+                  <div class="testimonial-since">Cliente desde 2025 · Oeiras</div>
                 </div>
               </div>
             </div>
             <div class="testimonial-card fade-in">
               <div class="testimonial-quote">"</div>
               <div class="stars">★★★★★</div>
-              <p class="testimonial-text">Fiz o programa pré-natal e foi a melhor decisão que tomei. Senti-me acompanhada e segura durante toda a gravidez. Recomendo a 100%!</p>
+              <p class="testimonial-text">Finalmente encontrei o estilo de pilates que tanto procurava! Estúdio incrível, cheio de luz, com vista para o jardim, equipa super cuidadosa e atenciosa. Livrei-me da dor que sentia logo na segunda aula. Recomendo a TODOS!</p>
               <div class="testimonial-author">
                 <div class="testimonial-avatar">C</div>
                 <div>
-                  <div class="testimonial-name">Carolina Lopes</div>
+                  <div class="testimonial-name">Victoria Passos</div>
                   <div class="testimonial-since">Cliente desde 2023 · Carnaxide</div>
                 </div>
               </div>
