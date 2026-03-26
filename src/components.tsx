@@ -45,7 +45,7 @@ export function footer() {
               <div class="footer-brand">MyPilates</div>
               <p class="footer-tagline">Transformamos corpos e mentes através do movimento inteligente. Dois estúdios na Área Metropolitana de Lisboa.</p>
               <div class="footer-social">
-                <a href="https://instagram.com/mypilates.pt" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://instagram.com/mypilates.pt" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
                 <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
               </div>
