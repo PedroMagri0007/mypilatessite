@@ -43,11 +43,10 @@ export function footer() {
           <div class="footer-grid">
             <div>
               <div class="footer-brand">MyPilates</div>
-              <p class="footer-tagline">Transformamos corpos e mentes através do movimento inteligente. Dois studios na Área Metropolitana de Lisboa.</p>
+              <p class="footer-tagline">Transformamos corpos e mentes através do movimento inteligente. Dois estúdios na Área Metropolitana de Lisboa.</p>
               <div class="footer-social">
-                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://instagram.com/mypilates.pt" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                 <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
               </div>
             </div>
@@ -59,30 +58,28 @@ export function footer() {
                 <a href="/aulas">Aulas</a>
                 <a href="/horarios">Horários</a>
                 <a href="/precos">Preços</a>
-                <a href="/studios">Studios</a>
+                <a href="/studios">Estúdios</a>
               </nav>
             </div>
             <div class="footer-col">
               <h5>Serviços</h5>
               <nav class="footer-links">
                 <a href="/aulas">Reformer Pilates</a>
-                <a href="/aulas">Mat Pilates</a>
                 <a href="/aulas">Pilates Clínico</a>
-                <a href="/aulas">Pilates Maternal</a>
                 <a href="/marcacoes">Sessões Privadas</a>
                 <a href="/aulas-experimentais">Aula Experimental</a>
               </nav>
             </div>
             <div class="footer-col">
               <h5>Contactos</h5>
-              <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Carnaxide: Rua das Flores, 45</span></div>
-              <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Oeiras: Av. República, 120</span></div>
-              <div class="footer-contact-item"><i class="fas fa-phone"></i><span>+351 214 000 100</span></div>
-              <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>geral@mypilates.pt</span></div>
+              <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Carnaxide: Av. Tomás Ribeiro 43, 2790-221 </span></div>
+              <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Oeiras: Lagoas Park, Edifício 4, Piso 0, 2740-267 Porto Salvo</span></div>
+              <div class="footer-contact-item"><i class="fas fa-phone"></i><span>+351 960046395</span></div>
+              <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>geral.mypilates@gmail.com</span></div>
             </div>
           </div>
           <div class="footer-bottom">
-            <span class="footer-copy">© 2025 MyPilates, Lda. Todos os direitos reservados.</span>
+            <span class="footer-copy">© 2025 MISSIONFORMULA, Lda. Todos os direitos reservados.</span>
             <nav class="footer-legal">
               <a href="/privacidade">Política de Privacidade</a>
               <a href="/termos">Termos e Condições</a>
