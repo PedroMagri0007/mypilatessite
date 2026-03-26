@@ -739,10 +739,7 @@ app.get('/aulas-experimentais', (c) => {
                   <label>Tipo de aula</label>
                   <select name="class_type">
                     <option value="">Seleciona...</option>
-                    <option>Mat Pilates</option>
                     <option>Reformer Pilates</option>
-                    <option>Pilates Maternal</option>
-                    <option>Pilates & Bola</option>
                   </select>
                 </div>
               </div>
@@ -808,12 +805,7 @@ app.get('/marcacoes', (c) => {
                   <label>Tipo de aula *</label>
                   <select name="class_type" required>
                     <option value="">Seleciona...</option>
-                    <option>Mat Pilates</option>
                     <option>Reformer Pilates</option>
-                    <option>Power Reformer</option>
-                    <option>Pilates Maternal</option>
-                    <option>Pilates & Bola</option>
-                    <option>Sessão Privada</option>
                     <option>Pilates Clínico</option>
                   </select>
                 </div>
