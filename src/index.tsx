@@ -238,13 +238,12 @@ app.get('/sobre-nos', (c) => {
               <h2 class="section-title">Nascemos para mover</h2>
               <div class="divider"></div>
               <p class="section-desc">
-                O MyPilates foi fundado em 2018 por Sofia Mendes, instrutora com mais de 15 anos de experiência e
-                uma paixão genuína pelo método Pilates. A visão era simples: criar um espaço onde cada pessoa
+                O MyPilates foi fundado em 2023 com o propósito de proporcionar aos nossos alunos aquilo que de melhor o Pilates tem para oferecer. A visão era simples: criar um espaço onde cada pessoa
                 se sinta bem-vinda, apoiada e desafiada a superar-se.
               </p>
               <p class="section-desc mt-4">
-                Abrimos o primeiro studio em Carnaxide e, face à procura crescente, expandimos para Oeiras em 2021.
-                Hoje, com uma equipa de 8 instrutores e mais de 500 clientes ativos, somos referência no Pilates
+                Abrimos o primeiro estúdio em Carnaxide e, face à procura crescente, expandimos para Oeiras em 2025.
+                Hoje, com uma equipa de 7 instrutores e mais de 200 alunos, somos referência no Pilates
                 na área de Lisboa.
               </p>
             </div>
@@ -262,10 +261,10 @@ app.get('/sobre-nos', (c) => {
           <div class="classes-grid" style="margin-top:56px;">
             {[
               { icon: 'fas fa-heart', title: 'Bem-Estar Integral', desc: 'Acreditamos que o Pilates vai além do corpo físico — trabalha mente, emoções e espírito.' },
-              { icon: 'fas fa-graduation-cap', title: 'Excelência Técnica', desc: 'Os nossos instrutores atualizam-se continuamente para oferecer o melhor ensino possível.' },
+              { icon: 'fas fa-graduation-cap', title: 'Excelência Técnica', desc: 'Os nossos instrutores/fisioterapeutas atualizam-se continuamente para oferecer o melhor serviço possível aos nossos alunos.' },
               { icon: 'fas fa-users', title: 'Comunidade', desc: 'Criamos um espaço inclusivo onde todos são bem-vindos, independentemente do nível ou idade.' },
-              { icon: 'fas fa-leaf', title: 'Sustentabilidade', desc: 'Compromisso com práticas eco-conscientes nos nossos studios e operações diárias.' },
-              { icon: 'fas fa-star', title: 'Personalização', desc: 'Cada corpo é único. Adaptamos sempre as aulas ao indivíduo, não o contrário.' },
+              { icon: 'fas fa-leaf', title: 'Sustentabilidade', desc: 'Compromisso com práticas sustentáveis nos nossos estúdios e operações diárias.' },
+              { icon: 'fas fa-star', title: 'Personalização', desc: 'Cada corpo é único. Adaptamos sempre as aulas ao aluno.' },
               { icon: 'fas fa-shield-alt', title: 'Segurança', desc: 'Prioridade máxima à segurança e ao conforto em todos os exercícios e programas.' },
             ].map(v => (
               <div class="class-card fade-in" style="text-align:center;">
@@ -292,14 +291,14 @@ app.get('/sobre-nos', (c) => {
           </div>
           <div class="team-grid">
             {[
-              { name: 'Sofia Mendes', role: 'Fundadora & Diretora Técnica', initial: 'S', studio: 'Carnaxide & Oeiras' },
-              { name: 'João Carvalho', role: 'Instrutor Sénior', initial: 'J', studio: 'Carnaxide' },
-              { name: 'Mariana Costa', role: 'Instrutora & Pré-Natal', initial: 'M', studio: 'Oeiras' },
-              { name: 'Pedro Alves', role: 'Pilates Clínico', initial: 'P', studio: 'Carnaxide & Oeiras' },
-              { name: 'Beatriz Nunes', role: 'Instrutora Reformer', initial: 'B', studio: 'Oeiras' },
-              { name: 'Rui Pereira', role: 'Instrutor Mat & Bola', initial: 'R', studio: 'Carnaxide' },
-              { name: 'Inês Rodrigues', role: 'Instrutora Iniciante', initial: 'I', studio: 'Oeiras' },
-              { name: 'Catarina Lima', role: 'Instrutora Sénior', initial: 'C', studio: 'Carnaxide' },
+              { name: 'Francisca', role: 'Instrutora & Fisioterapeuta', initial: 'S', studio: 'Oeiras' },
+              { name: 'Juliana', role: 'Instrutora', initial: 'J', studio: 'Carnaxide' },
+              { name: 'Mafalda', role: 'Instrutora', initial: 'M', studio: 'Carnaxide' },
+              { name: 'Marcela', role: 'Instrutora', initial: 'P', studio: 'Carnaxide' },
+              { name: 'Rosana', role: 'Instrutora', initial: 'B', studio: 'Carnaxide' },
+              { name: 'Thiago', role: 'Instrutor', initial: 'R', studio: 'Oeiras' },
+              { name: 'IBeatriz', role: 'Administrativa', initial: 'I', studio: 'Carnaxide' },
+              { name: 'Marta', role: 'Administrativa', initial: 'C', studio: 'Oeiras' },
             ].map(t => (
               <div class="team-card fade-in">
                 <div class="team-photo" style="background:var(--sand-dark);">
