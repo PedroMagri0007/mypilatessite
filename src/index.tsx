@@ -646,7 +646,7 @@ app.get('/studios', (c) => {
               </div>
               <div class="studio-body">
                 <span class="studio-tag"><i class="fas fa-map-marker-alt"></i> Oeiras</span>
-                <h3>Studio Oeiras</h3>
+                <h3>Estúdio Oeiras</h3>
                 <p>Inaugurado em 2025, o estúdio de Oeiras combina design moderno com vistas para o jardim.</p>
                 <div class="studio-info">
                   <div class="studio-info-row"><i class="fas fa-map-marker-alt"></i><span>Lagoas Park Edifício 4, 2740-268 Porto Salvo</span></div>
