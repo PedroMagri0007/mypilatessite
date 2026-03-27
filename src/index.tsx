@@ -622,7 +622,7 @@ app.get('/studios', (c) => {
               </div>
               <div class="studio-body">
                 <span class="studio-tag"><i class="fas fa-map-marker-alt"></i> Carnaxide</span>
-                <h3>Studio Carnaxide</h3>
+                <h3>Estúdio Carnaxide</h3>
                 <p>O nosso primeiro estúdio, aberto em 2023. Espaço com luz natural e uma vista deslumbrante para o jardim.</p>
                 <div class="studio-info">
                   <div class="studio-info-row"><i class="fas fa-map-marker-alt"></i><span>Av. Tomás Ribero 43, Piso 0 SalaG, 2790-221 Carnaxide</span></div>
@@ -632,11 +632,11 @@ app.get('/studios', (c) => {
                   <div class="studio-info-row"><i class="fas fa-car"></i><span>Estacionamento gratuito no local</span></div>
                 </div>
                 <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;">
-                  {['6 Reformers', '2 Cadillacs', 'Mat Studio', 'Vestiários', 'Duches', 'Cacifos'].map(f => (
+                  {['Reformer','Chair','Barrel', 'Cadillac', 'Casa de Banho', 'Jardim', 'Estacionamento'].map(f => (
                     <span style="background:var(--sage-light);color:var(--sage-dark);padding:4px 12px;border-radius:100px;font-size:0.72rem;font-weight:500;">{f}</span>
                   ))}
                 </div>
-                <a href="https://maps.google.com/?q=Carnaxide+Portugal" target="_blank" class="btn btn-outline"><i class="fas fa-directions"></i> Como Chegar</a>
+                <a href="https://maps.app.goo.gl/ycTLgD4wPJhaeYkJA" target="_blank" class="btn btn-outline"><i class="fas fa-directions"></i> Como Chegar</a>
               </div>
             </div>
 
@@ -656,11 +656,11 @@ app.get('/studios', (c) => {
                   <div class="studio-info-row"><i class="fas fa-car"></i><span>Estacionamento gratuito no local</span></div>
                 </div>
                 <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;">
-                  {['8 Reformers', '2 Cadillacs', '1 Tower', 'Mat Studio', 'Vestiários', 'Duches', 'Cacifos', 'Jardim'].map(f => (
+                  {['Reformer','Chair','Barrel', 'Cadillac', 'Casa de Banho', 'Estacionamento', 'Vestiário', 'Casa de Banho', 'Jardim'].map(f => (
                     <span style="background:var(--sage-light);color:var(--sage-dark);padding:4px 12px;border-radius:100px;font-size:0.72rem;font-weight:500;">{f}</span>
                   ))}
                 </div>
-                <a href="https://maps.google.com/?q=Oeiras+Portugal" target="_blank" class="btn btn-outline"><i class="fas fa-directions"></i> Como Chegar</a>
+                <a href="https://maps.app.goo.gl/GR3Pke9vjHGB8rFg7" target="_blank" class="btn btn-outline"><i class="fas fa-directions"></i> Como Chegar</a>
               </div>
             </div>
           </div>
