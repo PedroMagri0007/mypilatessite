@@ -513,24 +513,17 @@ app.get('/precos', (c) => {
 // ── SCHEDULE ──────────────────────────────────────────────────────────────────
 app.get('/horarios', (c) => {
   const carnaxideSchedule = [
-    { time: '07:00', cls: 'Mat Pilates', instructor: 'Catarina Lima', level: 'all', spots: '5 vagas' },
-    { time: '08:00', cls: 'Reformer Pilates', instructor: 'Sofia Mendes', level: 'intermediate', spots: '3 vagas' },
-    { time: '09:30', cls: 'Pilates Maternal', instructor: 'Sofia Mendes', level: 'all', spots: '4 vagas' },
-    { time: '10:30', cls: 'Mat Iniciante', instructor: 'Rui Pereira', level: 'beginner', spots: '8 vagas' },
-    { time: '12:30', cls: 'Reformer Express', instructor: 'Catarina Lima', level: 'intermediate', spots: '2 vagas', low: true },
-    { time: '18:00', cls: 'Power Reformer', instructor: 'João Carvalho', level: 'advanced', spots: '1 vaga', low: true },
-    { time: '19:00', cls: 'Mat Pilates', instructor: 'Rui Pereira', level: 'all', spots: '6 vagas' },
-    { time: '20:00', cls: 'Reformer Pilates', instructor: 'João Carvalho', level: 'intermediate', spots: '4 vagas' },
+    { time: '07:00´-14:00', cls: 'Pilates', instructor: 'Catarina Lima', level: 'all', spots: '2 vagas/aula' },
+    { time: '07:00-14:00', cls: 'Pilates', instructor: 'Sofia Mendes', level: 'intermediate', spots: '2 vagas/aula' },
+    { time: '14:00-21:00', cls: 'Pilates', instructor: 'Sofia Mendes', level: 'all', spots: '2 vagas/aula' },
+    { time: '14:00-21:00', cls: 'Pilates', instructor: 'Rui Pereira', level: 'beginner', spots: '2 vagas/aula' },
+    { time: '08:00-13:00 (Sab)', cls: 'Pilates', instructor: 'Rui Pereira', level: 'beginner', spots: '2 vagas/aula' },
   ]
   const oeiraSchedule = [
-    { time: '07:30', cls: 'Mat Pilates', instructor: 'Inês Rodrigues', level: 'beginner', spots: '7 vagas' },
-    { time: '09:00', cls: 'Reformer Pilates', instructor: 'Mariana Costa', level: 'all', spots: '5 vagas' },
-    { time: '10:00', cls: 'Pilates Maternal', instructor: 'Mariana Costa', level: 'all', spots: '3 vagas' },
-    { time: '11:30', cls: 'Pilates & Bola', instructor: 'Beatriz Nunes', level: 'all', spots: '6 vagas' },
-    { time: '13:00', cls: 'Mat Express (30 min)', instructor: 'Inês Rodrigues', level: 'intermediate', spots: '8 vagas' },
-    { time: '17:30', cls: 'Reformer Pilates', instructor: 'Beatriz Nunes', level: 'intermediate', spots: '2 vagas', low: true },
-    { time: '19:00', cls: 'Power Reformer', instructor: 'Pedro Alves', level: 'advanced', spots: '3 vagas' },
-    { time: '20:00', cls: 'Mat Pilates', instructor: 'Inês Rodrigues', level: 'all', spots: '5 vagas' },
+    { time: '07:00´-14:00', cls: 'Pilates', instructor: 'Inês Rodrigues', level: 'beginner', spots: '2 vagas/aula' },
+    { time: '07:00´-14:00', cls: 'Pilates', instructor: 'Mariana Costa', level: 'all', spots: '2 vagas/aula' },
+    { time: '14:00-21:00', cls: 'Pilates', instructor: 'Mariana Costa', level: 'all', spots: '2 vagas/aula' },
+    { time: '14:00-21:00', cls: 'Pilates', instructor: 'Beatriz Nunes', level: 'all', spots: '2 vagas/aula' },
   ]
 
   const renderTable = (rows: typeof carnaxideSchedule) => (
