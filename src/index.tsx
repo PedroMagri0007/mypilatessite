@@ -816,31 +816,31 @@ app.get('/contactos', (c) => {
   return c.render(
     <>
       {navbar('contactos')}
-      {pageHero('Contactos', 'Estamos aqui para ajudar. Fala connosco!', 'Contactos')}
+      {pageHero('Contactos', 'Estamos aqui para ajudar. Fale connosco!', 'Contactos')}
 
       <section class="section">
         <div class="container">
           <div class="contact-grid">
             <div class="contact-info fade-in">
               <div class="contact-block">
-                <h4><i class="fas fa-map-marker-alt text-sage" style="margin-right:10px;"></i>Studio Carnaxide</h4>
-                <p><i class="fas fa-location-dot"></i> Rua das Flores, 45 · 2790-078 Carnaxide</p>
-                <p><i class="fas fa-phone"></i> <a href="tel:+351214000100">+351 214 000 100</a></p>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:carnaxide@mypilates.pt">carnaxide@mypilates.pt</a></p>
-                <p><i class="fas fa-clock"></i> Seg–Sex: 07:00–21:00 · Sáb: 09:00–16:00</p>
+                <h4><i class="fas fa-map-marker-alt text-sage" style="margin-right:10px;"></i>Estúdio Carnaxide</h4>
+                <p><i class="fas fa-location-dot"></i> Av. Tomás Ribeiro 43, Piso 0 Sala G, 2790-221 Carnaxide</p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+351214000100">+351 960 046 395</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:carnaxide@mypilates.pt">ecritorio.mypilates@gmail.com</a></p>
+                <p><i class="fas fa-clock"></i> Seg–Sex: 07:00–21:00 · Sáb: 08:00–13:00</p>
               </div>
 
               <div class="contact-block">
-                <h4><i class="fas fa-map-marker-alt text-sage" style="margin-right:10px;"></i>Studio Oeiras</h4>
-                <p><i class="fas fa-location-dot"></i> Av. República, 120 · 2780-117 Oeiras</p>
-                <p><i class="fas fa-phone"></i> <a href="tel:+351214000200">+351 214 000 200</a></p>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:oeiras@mypilates.pt">oeiras@mypilates.pt</a></p>
-                <p><i class="fas fa-clock"></i> Seg–Sex: 07:30–21:00 · Sáb: 09:00–15:00</p>
+                <h4><i class="fas fa-map-marker-alt text-sage" style="margin-right:10px;"></i>Estúdio Oeiras</h4>
+                <p><i class="fas fa-location-dot"></i> Lagoas Park Edifíco 4, 2740-268 Porto Salvo</p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+351214000200">+351 960 182 612</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:oeiras@mypilates.pt">escritorio.mypilatesoeiras@gmail.com</a></p>
+                <p><i class="fas fa-clock"></i> Seg–Sex: 07:00–21:00</p>
               </div>
 
               <div class="contact-block">
                 <h4><i class="fas fa-headset text-sage" style="margin-right:10px;"></i>Geral</h4>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:geral@mypilates.pt">geral@mypilates.pt</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:geral@mypilates.pt">geral.mypilates@gmail.com</a></p>
                 <p><i class="fas fa-globe"></i> www.mypilates.pt</p>
               </div>
 
