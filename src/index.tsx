@@ -513,14 +513,14 @@ app.get('/precos', (c) => {
 // ── SCHEDULE ──────────────────────────────────────────────────────────────────
 app.get('/horarios', (c) => {
   const carnaxideSchedule = [
-    { time: '07:00´-14:00', cls: 'Pilates', instructor: 'Catarina Lima', level: 'all', spots: '2 vagas/aula' },
+    { time: '07:00-14:00', cls: 'Pilates', instructor: 'Catarina Lima', level: 'all', spots: '2 vagas/aula' },
     { time: '07:00-14:00', cls: 'Pilates', instructor: 'Sofia Mendes', level: 'intermediate', spots: '2 vagas/aula' },
     { time: '14:00-21:00', cls: 'Pilates', instructor: 'Sofia Mendes', level: 'all', spots: '2 vagas/aula' },
     { time: '14:00-21:00', cls: 'Pilates', instructor: 'Rui Pereira', level: 'beginner', spots: '2 vagas/aula' },
     { time: '08:00-13:00 (Sab)', cls: 'Pilates', instructor: 'Rui Pereira', level: 'beginner', spots: '2 vagas/aula' },
   ]
   const oeiraSchedule = [
-    { time: '07:00´-14:00', cls: 'Pilates', instructor: 'Inês Rodrigues', level: 'beginner', spots: '2 vagas/aula' },
+    { time: '07:00-14:00', cls: 'Pilates', instructor: 'Inês Rodrigues', level: 'beginner', spots: '2 vagas/aula' },
     { time: '07:00´-14:00', cls: 'Pilates', instructor: 'Mariana Costa', level: 'all', spots: '2 vagas/aula' },
     { time: '14:00-21:00', cls: 'Pilates', instructor: 'Mariana Costa', level: 'all', spots: '2 vagas/aula' },
     { time: '14:00-21:00', cls: 'Pilates', instructor: 'Beatriz Nunes', level: 'all', spots: '2 vagas/aula' },
