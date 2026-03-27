@@ -514,13 +514,13 @@ app.get('/precos', (c) => {
 app.get('/horarios', (c) => {
   const carnaxideSchedule = [
     { time: '07:00-14:00', cls: 'Pilates', instructor: 'Catarina Lima', level: 'all', spots: '2 vagas/aula' },
-    { time: '07:00-14:00', cls: 'Pilates', instructor: 'Sofia Mendes', level: 'intermediate', spots: '2 vagas/aula' },
+    { time: '07:00-14:00', cls: 'Pilates', instructor: 'Sofia Mendes', level: 'all', spots: '2 vagas/aula' },
     { time: '14:00-21:00', cls: 'Pilates', instructor: 'Sofia Mendes', level: 'all', spots: '2 vagas/aula' },
-    { time: '14:00-21:00', cls: 'Pilates', instructor: 'Rui Pereira', level: 'beginner', spots: '2 vagas/aula' },
-    { time: '08:00-13:00 (Sab)', cls: 'Pilates', instructor: 'Rui Pereira', level: 'beginner', spots: '2 vagas/aula' },
+    { time: '14:00-21:00', cls: 'Pilates', instructor: 'Rui Pereira', level: 'all', spots: '2 vagas/aula' },
+    { time: '08:00-13:00 (Sab)', cls: 'Pilates', instructor: 'Rui Pereira', level: 'all', spots: '2 vagas/aula' },
   ]
   const oeiraSchedule = [
-    { time: '07:00-14:00', cls: 'Pilates', instructor: 'Inês Rodrigues', level: 'beginner', spots: '2 vagas/aula' },
+    { time: '07:00-14:00', cls: 'Pilates', instructor: 'Inês Rodrigues', level: 'all', spots: '2 vagas/aula' },
     { time: '07:00´-14:00', cls: 'Pilates', instructor: 'Mariana Costa', level: 'all', spots: '2 vagas/aula' },
     { time: '14:00-21:00', cls: 'Pilates', instructor: 'Mariana Costa', level: 'all', spots: '2 vagas/aula' },
     { time: '14:00-21:00', cls: 'Pilates', instructor: 'Beatriz Nunes', level: 'all', spots: '2 vagas/aula' },
@@ -611,7 +611,7 @@ app.get('/studios', (c) => {
   return c.render(
     <>
       {navbar('studios')}
-      {pageHero('Os Nossos Studios', 'Dois espaços pensados ao detalhe para a tua prática de Pilates.', 'Studios')}
+      {pageHero('Os Nossos Estúdios', 'Dois espaços pensados ao detalhe para a sua prática de Pilates.', 'Studios')}
 
       <section class="section">
         <div class="container">
@@ -623,12 +623,12 @@ app.get('/studios', (c) => {
               <div class="studio-body">
                 <span class="studio-tag"><i class="fas fa-map-marker-alt"></i> Carnaxide</span>
                 <h3>Studio Carnaxide</h3>
-                <p>O nosso studio histórico, aberto em 2018. Espaço amplo com luz natural e uma comunidade vibrante.</p>
+                <p>O nosso primeiro estúdio, aberto em 2023. Espaço com luz natural e uma vista deslumbrante para o jardim.</p>
                 <div class="studio-info">
-                  <div class="studio-info-row"><i class="fas fa-map-marker-alt"></i><span>Rua das Flores, 45 · 2790-078 Carnaxide</span></div>
-                  <div class="studio-info-row"><i class="fas fa-phone"></i><span>+351 214 000 100</span></div>
-                  <div class="studio-info-row"><i class="fas fa-envelope"></i><span>carnaxide@mypilates.pt</span></div>
-                  <div class="studio-info-row"><i class="fas fa-clock"></i><span>Seg–Sex: 07:00–21:00 · Sáb: 09:00–16:00</span></div>
+                  <div class="studio-info-row"><i class="fas fa-map-marker-alt"></i><span>Av. Tomás Ribero 43, Piso 0 SalaG, 2790-221 Carnaxide</span></div>
+                  <div class="studio-info-row"><i class="fas fa-phone"></i><span>+351 960 046 395</span></div>
+                  <div class="studio-info-row"><i class="fas fa-envelope"></i><span>escritorio.mypilates@gmail.com</span></div>
+                  <div class="studio-info-row"><i class="fas fa-clock"></i><span>Seg–Sex: 07:00–21:00 · Sáb: 08:00–13:00</span></div>
                   <div class="studio-info-row"><i class="fas fa-car"></i><span>Estacionamento gratuito no local</span></div>
                 </div>
                 <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;">
@@ -647,12 +647,12 @@ app.get('/studios', (c) => {
               <div class="studio-body">
                 <span class="studio-tag"><i class="fas fa-map-marker-alt"></i> Oeiras</span>
                 <h3>Studio Oeiras</h3>
-                <p>Inaugurado em 2021, o studio de Oeiras combina design moderno com vistas para o jardim.</p>
+                <p>Inaugurado em 2025, o estúdio de Oeiras combina design moderno com vistas para o jardim.</p>
                 <div class="studio-info">
-                  <div class="studio-info-row"><i class="fas fa-map-marker-alt"></i><span>Av. República, 120 · 2780-117 Oeiras</span></div>
-                  <div class="studio-info-row"><i class="fas fa-phone"></i><span>+351 214 000 200</span></div>
-                  <div class="studio-info-row"><i class="fas fa-envelope"></i><span>oeiras@mypilates.pt</span></div>
-                  <div class="studio-info-row"><i class="fas fa-clock"></i><span>Seg–Sex: 07:30–21:00 · Sáb: 09:00–15:00</span></div>
+                  <div class="studio-info-row"><i class="fas fa-map-marker-alt"></i><span>Lagoas Park Edifício 4, 2740-268 Porto Salvo</span></div>
+                  <div class="studio-info-row"><i class="fas fa-phone"></i><span>+351 960 182 612</span></div>
+                  <div class="studio-info-row"><i class="fas fa-envelope"></i><span>escritorio.mypilatesoeiras@gmail.com</span></div>
+                  <div class="studio-info-row"><i class="fas fa-clock"></i><span>Seg–Sex: 07:00–21:00</span></div>
                   <div class="studio-info-row"><i class="fas fa-car"></i><span>Estacionamento gratuito no local</span></div>
                 </div>
                 <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;">
@@ -670,7 +670,7 @@ app.get('/studios', (c) => {
       {footer()}
       {scripts()}
     </>,
-    { title: 'Os Nossos Studios' }
+    { title: 'Os Nossos Estúdios' }
   )
 })
 
