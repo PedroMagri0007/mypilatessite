@@ -71,7 +71,7 @@ app.get('/', (c) => {
           <div class="about-grid">
             <div class="about-image-wrap">
               <img
-                src="https://sspark.genspark.ai/cfimages?u1=FCJKGHbO03s2Yq%2Bw4Gaiyc9hDRKmXmKyD7t5H4mHkrYvNYlt18fFVsli9e3gfxLA2h2eXEkrZ8OoP65Qnl1JghHiiUvC758DtMf5nmxpWB0uMCjjHlRu%2B%2BPywL0CvbZBp7Vd8qF0aw0JD78IhQ6U0%2BN05s7tLJy0xhBegXhtNm3MQMc23nmlvT1yxj0uQIGa9%2BYcCDfk2zp2TWUpXUB26w%3D%3D&u2=lKeg4i4UkUmhPP6e&width=2560"
+                src="public/static/img/IMG_1252.jpg"
                 alt="MyPilates studio"
                 class="about-img"
               />
