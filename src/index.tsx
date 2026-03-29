@@ -460,7 +460,7 @@ app.get('/precos', (c) => {
               <h2 class="section-title">Pensado para si</h2>
               <p class="section-desc">Para uma prática totalmente personalizável às suas preferências e disponibilidade.</p>
             </div>
-            <div class="pricing-grid" style="margin-top:48px;">
+            <div class="pricing-grid-1" style="margin-top:48px;">
               {[
                 { name: 'Sessão Individual', price: '€75', per: '/ sessão', features: ['1 pessoa', '50 minutos', 'Instrutor dedicado', 'Programa personalizado', 'Todos os equipamentos'] },
                 { name: 'Pack 10 aulas', price: '€50', per: '/ pack', features: ['Máx. 2 pessoas', '50 minutos', 'Instrutor dedicado', 'Programa semipersonalizado', 'Todos os equipamentos'] },
