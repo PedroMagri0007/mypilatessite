@@ -442,7 +442,7 @@ app.get('/precos', (c) => {
               <div class="pricing-price">
                 <span class="price-amount">3x/semana</span>
               </div>
-              <span class="price-period">/ 12 aulas por mês</span>
+              <span class="price-period">12 aulas por mês</span>
               <p class="pricing-desc">Para quem quer transformar o Pilates num estilo de vida.</p>
               <ul class="pricing-features">
                 <li><i class="fas fa-check"></i> Casa de banho/vestiário</li>
@@ -456,9 +456,9 @@ app.get('/precos', (c) => {
           {/* Private sessions */}
           <div style="margin-top:80px;">
             <div class="section-center fade-in">
-              <span class="section-label">Sessões Privadas</span>
-              <h2 class="section-title">Atenção totalmente dedicada a si</h2>
-              <p class="section-desc">Para um programa completamente personalizado com um instrutor dedicado.</p>
+              <span class="section-label">Outras modalidades</span>
+              <h2 class="section-title">Pensado para si</h2>
+              <p class="section-desc">Para uma prática totalmente personalizável às suas preferências e disponibilidade.</p>
             </div>
             <div class="pricing-grid" style="margin-top:48px;">
               {[
@@ -486,7 +486,7 @@ app.get('/precos', (c) => {
                 'A primeira aula experimental é gratuita e sem compromisso.',
                 'Os planos mensais renovam automaticamente e podem ser cancelados com 30 dias de antecedência.',
                 'Aulas não utilizadas num mês não transitam para o mês seguinte.',
-                'Consultar promoções e campanhas em vigor com o seu estúdio de preferência.',
+                'Consultar promoções e campanhas em vigor com o seu estúdio de preferência - Oeiras ou Carnaxide.',
                 'Para grupos empresariais e parcerias, contacte-nos para condições especiais.',
               ].map(n => <li style="display:flex;gap:10px;font-size:0.9rem;color:var(--mid-gray);"><i class="fas fa-info-circle" style="color:var(--sage-dark);margin-top:3px;flex-shrink:0;"></i> {n}</li>)}
             </ul>
