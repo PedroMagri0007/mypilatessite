@@ -590,7 +590,7 @@ p { color: var(--mid-gray); line-height: 1.8; }
   gap: 28px;
   margin-top: 56px;
   justify-content: center;
-  align-items: start;
+  align-items: center;
 }
 
 .pricing-card {
