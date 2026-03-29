@@ -401,61 +401,53 @@ app.get('/precos', (c) => {
       <section class="section">
         <div class="container">
           <div class="section-center fade-in">
-            <span class="section-label">Planos de Aulas em Grupo</span>
+            <span class="section-label">Planos de Aulas</span>
             <h2 class="section-title">Escolhe o plano ideal para ti</h2>
-            <p class="section-desc">Todos os planos incluem acesso a ambas as unidades — Carnaxide e Oeiras.</p>
+            <p class="section-desc">Os preços da modalidade podem variar consoante o estúdio que eleger.</p>
           </div>
           <div class="pricing-grid">
             <div class="pricing-card fade-in">
               <span class="pricing-name">Básico</span>
               <div class="pricing-price">
-                <span class="price-amount">€49</span>
+                <span class="price-amount">1x/ semana</span>
               </div>
-              <span class="price-period">/ mês · 4 aulas</span>
-              <p class="pricing-desc">Perfeito para começar ou para quem tem agenda mais limitada.</p>
+              <span class="price-period">4 aulas por mês</span>
+              <p class="pricing-desc">Perfeito para começar ou para quem tem uma agenda mais limitada.</p>
               <ul class="pricing-features">
-                <li><i class="fas fa-check"></i> 4 aulas de grupo/mês</li>
-                <li><i class="fas fa-check"></i> Acesso a ambos os studios</li>
-                <li><i class="fas fa-check"></i> App de marcações</li>
-                <li><i class="fas fa-check"></i> Toalha incluída</li>
+                <li><i class="fas fa-check"></i> Casa de banho/vestiário</li>
+                <li><i class="fas fa-check"></i> Flexibilidade de agendamento</li>
+                <li><i class="fas fa-check"></i> Manutençao e Bem-Estar</li>
               </ul>
               <a href="/marcacoes" class="btn btn-outline" style="width:100%;justify-content:center;">Começar</a>
             </div>
 
             <div class="pricing-card featured fade-in">
               <span class="pricing-badge">Mais Popular</span>
-              <span class="pricing-name">Premium</span>
+              <span class="pricing-name">PRO</span>
               <div class="pricing-price">
-                <span class="price-amount">€89</span>
+                <span class="price-amount">2x/semana</span>
               </div>
-              <span class="price-period">/ mês · 8 aulas</span>
+              <span class="price-period">8 aulas por mês</span>
               <p class="pricing-desc">O equilíbrio perfeito para resultados consistentes.</p>
               <ul class="pricing-features">
-                <li><i class="fas fa-check"></i> 8 aulas de grupo/mês</li>
-                <li><i class="fas fa-check"></i> Acesso a ambos os studios</li>
-                <li><i class="fas fa-check"></i> App de marcações prioritária</li>
-                <li><i class="fas fa-check"></i> Toalha e água incluídas</li>
-                <li><i class="fas fa-check"></i> 1 avaliação postural/trimestre</li>
-                <li><i class="fas fa-check"></i> 10% desconto em sessões privadas</li>
+                <li><i class="fas fa-check"></i> Casa de banho/vestiário</li>
+                <li><i class="fas fa-check"></i> Flexibilidade de agendamento</li>
+                <li><i class="fas fa-check"></i> Resultados visíveis</li>
               </ul>
               <a href="/marcacoes" class="btn btn-primary" style="width:100%;justify-content:center;">Começar</a>
             </div>
 
             <div class="pricing-card fade-in">
-              <span class="pricing-name">Ilimitado</span>
+              <span class="pricing-name">Premium</span>
               <div class="pricing-price">
-                <span class="price-amount">€149</span>
+                <span class="price-amount">3x/semana</span>
               </div>
-              <span class="price-period">/ mês · aulas ilimitadas</span>
+              <span class="price-period">/ 12 aulas por mês</span>
               <p class="pricing-desc">Para quem quer transformar o Pilates num estilo de vida.</p>
               <ul class="pricing-features">
-                <li><i class="fas fa-check"></i> Aulas ilimitadas de grupo</li>
-                <li><i class="fas fa-check"></i> Acesso a ambos os studios</li>
-                <li><i class="fas fa-check"></i> Marcações com prioridade máxima</li>
-                <li><i class="fas fa-check"></i> Toalha, água e snack incluídos</li>
-                <li><i class="fas fa-check"></i> 1 sessão privada/mês incluída</li>
-                <li><i class="fas fa-check"></i> 20% desconto em sessões extra</li>
-                <li><i class="fas fa-check"></i> Acesso a workshops exclusivos</li>
+                <li><i class="fas fa-check"></i> Casa de banho/vestiário</li>
+                <li><i class="fas fa-check"></i> Flexibilidade de agendamento</li>
+                <li><i class="fas fa-check"></i> Transformação total</li>
               </ul>
               <a href="/marcacoes" class="btn btn-outline" style="width:100%;justify-content:center;">Começar</a>
             </div>
@@ -465,14 +457,13 @@ app.get('/precos', (c) => {
           <div style="margin-top:80px;">
             <div class="section-center fade-in">
               <span class="section-label">Sessões Privadas</span>
-              <h2 class="section-title">Atenção totalmente dedicada a ti</h2>
+              <h2 class="section-title">Atenção totalmente dedicada a si</h2>
               <p class="section-desc">Para um programa completamente personalizado com um instrutor dedicado.</p>
             </div>
             <div class="pricing-grid" style="margin-top:48px;">
               {[
-                { name: 'Sessão Individual', price: '€75', per: '/ sessão', features: ['1 pessoa', '55 minutos', 'Instrutor dedicado', 'Programa personalizado', 'Todos os equipamentos'] },
-                { name: 'Sessão Duo', price: '€50', per: '/ pessoa / sessão', features: ['2 pessoas', '60 minutos', 'Instrutor dedicado', 'Programa semipersonalizado', 'Todos os equipamentos'] },
-                { name: 'Pack 10 Sessões', price: '€650', per: '/ 10 sessões individuais', features: ['Poupança de €100', 'Validade de 4 meses', 'Instrutor dedicado', 'Avaliação mensal incluída', 'Transferíveis para duo'] },
+                { name: 'Sessão Individual', price: '€75', per: '/ sessão', features: ['1 pessoa', '50 minutos', 'Instrutor dedicado', 'Programa personalizado', 'Todos os equipamentos'] },
+                { name: 'Pack 10 aulas', price: '€50', per: '/ pack', features: ['Máx. 2 pessoas', '50 minutos', 'Instrutor dedicado', 'Programa semipersonalizado', 'Todos os equipamentos'] },
               ].map(p => (
                 <div class="pricing-card fade-in">
                   <span class="pricing-name">{p.name}</span>
@@ -494,8 +485,8 @@ app.get('/precos', (c) => {
               {[
                 'A primeira aula experimental é gratuita e sem compromisso.',
                 'Os planos mensais renovam automaticamente e podem ser cancelados com 30 dias de antecedência.',
-                'Aulas não utilizadas num mês não transitam para o mês seguinte (exceto plano Ilimitado).',
-                'Desconto de 15% para estudantes, seniores (+65 anos) e portadores de deficiência, mediante comprovativo.',
+                'Aulas não utilizadas num mês não transitam para o mês seguinte.',
+                'Consultar promoções e campanhas em vigor com o seu estúdio de preferência.',
                 'Para grupos empresariais e parcerias, contacte-nos para condições especiais.',
               ].map(n => <li style="display:flex;gap:10px;font-size:0.9rem;color:var(--mid-gray);"><i class="fas fa-info-circle" style="color:var(--sage-dark);margin-top:3px;flex-shrink:0;"></i> {n}</li>)}
             </ul>
