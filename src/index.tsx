@@ -112,7 +112,7 @@ app.get('/', (c) => {
               As nossas aulas são adaptadas às condições físicas de cada aluno.
             </p>
           </div>
-          <div class="classes-grid">
+          <div class="classes-grid-1">
             <div class="class-card fade-in">
               <div class="class-card-img">
                 <img src="https://sspark.genspark.ai/cfimages?u1=hoHMFo5J47fc7Byx72fgQyG%2Bjb16C%2F%2FJ54kcdSaOz7yRPDEXauaeJGYA1fy7w0yZ4HlegpyCMd44CUK9NV1lIixu1FimBcYI0YXhiCsGPyoZx%2FLrDB1NJYac5KtnoE3RCzWi74v9UdX9RWzMnWEEJlG9oF85FX%2BlTL6SThHfKaqTXAYOJ5bKI8h8GuEsS95j67Dr%2Bs3TwmOR%2B3J0dbKG%2FTF05tqqR%2Fv5Vjo5XTExnbiYMETi%2F71jEN8o4jv3VcngWtQ%3D&u2=Jt%2FM4u1UffTvsQWf&width=2560" alt="Reformer Pilates" />
