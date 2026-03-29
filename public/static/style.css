@@ -584,9 +584,18 @@ p { color: var(--mid-gray); line-height: 1.8; }
 .class-meta i { color: var(--sage-dark); }
 
 /* ---------- Pricing ---------- */
-.pricing-grid {
+.pricing-grid-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-top: 56px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 28px;
   margin-top: 56px;
   justify-content: center;
