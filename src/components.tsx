@@ -3,8 +3,8 @@ export function navbar(active?: string) {
     { href: '/sobre-nos', label: 'Sobre Nós', key: 'sobre-nos' },
     { href: '/aulas', label: 'Aulas', key: 'aulas' },
     { href: '/horarios', label: 'Horários', key: 'horarios' },
-    { href: '/precos', label: 'Preços', key: 'precos' },
-    { href: '/studios', label: 'Studios', key: 'studios' },
+    { href: '/precos', label: 'Modalidades', key: 'precos' },
+    { href: '/studios', label: 'Estúdios', key: 'studios' },
     { href: '/contactos', label: 'Contactos', key: 'contactos' },
   ]
 
