@@ -321,7 +321,7 @@ p { color: var(--mid-gray); line-height: 1.8; }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('/static/img/IMG_1233.jpg');
+  background-image: url('/static/img/IMG_1235.jpg');
   background-size: cover;
   background-position: center 30%;
   opacity: 0.45;
