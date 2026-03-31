@@ -725,35 +725,7 @@ app.get('/aulas-experimentais', (c) => {
         </div>
       </section>
       {footer()}
-      {scripts(async function handleForm(event) {
-  event.preventDefault();
-
-  const form = event.target;
-
-  const data = {
-    name: form.name.value,
-    phone: form.phone.value,
-    email: form.email.value,
-    studio: form.studio.value,
-  };
-
-  const res = await fetch("db.magritopedro.workers.dev", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  });
-
-  const result = await res.json();
-
-  if (result.success) {
-    alert("Enviado com sucesso!");
-    form.reset();
-  } else {
-    alert("Erro ao enviar.");
-  }
-})}
+      {scripts()}
     </>,
     { title: 'Aula Experimental Gratuita' }
   )
@@ -1133,16 +1105,36 @@ function scripts() {
       };
 
       // Form handler
-      window.handleForm = (e) => {
-        e.preventDefault();
-        const toast = document.getElementById('toast');
-        if (toast) {
-          toast.classList.add('show');
-          setTimeout(() => toast.classList.remove('show'), 4000);
-        }
-        e.target.reset();
-      };
-    `}} />
+      async function handleForm(event) {
+  event.preventDefault();
+
+  const form = event.target;
+
+  const data = {
+    name: form.name.value,
+    phone: form.phone.value,
+    email: form.email.value,
+    studio: form.studio.value,
+  };
+
+  const res = await fetch("https://teu-worker-url.workers.dev", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  });
+
+  const result = await res.json();
+
+  if (result.success) {
+    alert("Enviado com sucesso!");
+    form.reset();
+  } else {
+    alert("Erro ao enviar.");
+  }
+};
+    }} />
   )
 }
 
