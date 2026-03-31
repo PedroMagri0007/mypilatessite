@@ -321,7 +321,7 @@ p { color: var(--mid-gray); line-height: 1.8; }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('https://sspark.genspark.ai/cfimages?u1=41ckaJSzm%2BoHHJ%2F8y8ZCr1mmztMgNwIVhUt49n3l4fQHRzO0DDmOdZVSgUEXmzDndoVEP59NH26MJ2Kh9KwKUvMlgxLhZn0R0numYvgeVf9J8A%2B81xZPKqTzVs0xSsJB8x3S&u2=cDCaCx4rp%2BGkoKAW&width=2560');
+  background-image: url('/static/img/IMG_1233.jpg');
   background-size: cover;
   background-position: center 30%;
   opacity: 0.45;
