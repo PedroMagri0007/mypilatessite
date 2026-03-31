@@ -1115,6 +1115,36 @@ function scripts() {
         e.target.reset();
       };
     ´}} />
+    async function handleForm(event) {
+  event.preventDefault();
+
+  const form = event.target;
+
+  const data = {
+    name: form.name.value,
+    phone: form.phone.value,
+    email: form.email.value,
+    studio: form.studio.value,
+  };
+
+  const res = await fetch("https://teu-worker-url.workers.dev", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  });
+
+  const result = await res.json();
+
+  if (result.success) {
+    alert("Enviado com sucesso!");
+    form.reset();
+  } else {
+    alert("Erro ao enviar.");
+  }
+};
+    }} />
   )
 }
 
