@@ -505,7 +505,7 @@ p { color: var(--mid-gray); line-height: 1.8; }
 
 /* ---------- Classes Grid ---------- */
 .classes-grid-1 {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
   gap: 28px;
   margin-top: 56px;
