@@ -1117,7 +1117,7 @@ function scripts() {
     studio: form.studio.value,
   };
 
-  const res = await fetch("https://teu-worker-url.workers.dev", {
+  const res = await fetch("db.magritopedro.workers.dev", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
