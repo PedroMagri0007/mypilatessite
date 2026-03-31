@@ -71,7 +71,7 @@ app.get('/', (c) => {
           <div class="about-grid">
             <div class="about-image-wrap">
               <img
-                src="../public/static/img/IMG_1219.jpg"
+                src="/static/img/IMG_1219.jpg"
                 alt="MyPilates studio"
                 class="about-img"
               />
