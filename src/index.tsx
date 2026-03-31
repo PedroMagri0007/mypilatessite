@@ -115,7 +115,7 @@ app.get('/', (c) => {
           <div class="classes-grid-1">
             <div class="class-card fade-in">
               <div class="class-card-img">
-                <img src="https://sspark.genspark.ai/cfimages?u1=hoHMFo5J47fc7Byx72fgQyG%2Bjb16C%2F%2FJ54kcdSaOz7yRPDEXauaeJGYA1fy7w0yZ4HlegpyCMd44CUK9NV1lIixu1FimBcYI0YXhiCsGPyoZx%2FLrDB1NJYac5KtnoE3RCzWi74v9UdX9RWzMnWEEJlG9oF85FX%2BlTL6SThHfKaqTXAYOJ5bKI8h8GuEsS95j67Dr%2Bs3TwmOR%2B3J0dbKG%2FTF05tqqR%2Fv5Vjo5XTExnbiYMETi%2F71jEN8o4jv3VcngWtQ%3D&u2=Jt%2FM4u1UffTvsQWf&width=2560" alt="Reformer Pilates" />
+                <img src="/static/img/IMG_1252.jpg" alt="Reformer Pilates" />
               </div>
               <div class="class-card-body">
                 <span class="class-tag">Todos os níveis</span>
@@ -129,7 +129,7 @@ app.get('/', (c) => {
             </div>
             <div class="class-card fade-in">
               <div class="class-card-img">
-                <img src="https://sspark.genspark.ai/cfimages?u1=kGRqGPNH8V4%2FYV%2FO0MpWITnNX3FTyvIwkXywm%2BwGQuAPLojoyfbmnnleAOuLZu0NKjjV%2FuMy1sNwZmMsl7WPglTnmdg2M%2BHpfKWply1XRMYmgguAezougBh46ynFx8Gx%2BeufGr8YXonffSrY%2F4DXIthnDsTrfWO2l23WsYqVtcHC7tDWBvNLoZBvRW%2BKqkV4Yx7hhzpp%2BUOOtgMsQZR3zYq2BZ6%2FUykuxpBBYE6eV5kjBA%3D%3D&u2=GCQT0mdsbcUJRHAk&width=2560" alt="Clínico" />
+                <img src="/static/img/IMG_1234.jpg" alt="Clínico" />
               </div>
               <div class="class-card-body">
                 <span class="class-tag">Especializado</span>
