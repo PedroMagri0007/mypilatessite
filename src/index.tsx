@@ -1107,35 +1107,38 @@ function scripts() {
           };
 
           // Form handler
-          window.handleForm = async function handleForm(event) {
-  event.preventDefault();
+          window.handleForm(event) = async (e) => {
+            e.preventDefault();
 
-  const form = event.target;
+            const form = e.target;
 
-  const data = {
-    name: form.name.value,
-    phone: form.phone.value,
-    email: form.email.value,
-    studio: form.studio.value,
-  };
+            const data = {
+              name: form.name.value,
+              phone: form.phone.value,
+              email: form.email.value,
+              studio: form.studio.value,
+            };
 
-  const res = await fetch("https://db.magritopedro.workers.dev, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  });
+            const res = await fetch("https://db.magritopedro.workers.dev", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            });
 
-  const result = await res.json();
+            const result = await res.json();
 
-  if (result.success) {
-    alert("Enviado com sucesso!");
-    form.reset();
-  } else {
-    alert("Erro ao enviar.");
-  }
-  };
+            const toast = document.getElementById('toast');
+
+            if (result.success) {
+              toast?.classList.add('show');
+              setTimeout(() => toast?.classList.remove('show'), 4000);
+              form.reset();
+            } else {
+              alert("Erro ao enviar.");
+            }
+          };
         `,
       }}
     />
