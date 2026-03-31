@@ -129,7 +129,7 @@ app.get('/', (c) => {
             </div>
             <div class="class-card fade-in">
               <div class="class-card-img">
-                <img src="/static/img/IMG_1234.jpg" alt="Clínico" />
+                <img src="/static/img/IMG_1231.jpg" alt="Clínico" />
               </div>
               <div class="class-card-body">
                 <span class="class-tag">Especializado</span>
