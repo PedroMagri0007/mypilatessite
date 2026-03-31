@@ -1058,94 +1058,90 @@ app.notFound((c) => {
 
 function scripts() {
   return (
-    <script dangerouslySetInnerHTML={{__html: `
-      // Navbar scroll
-      const nav = document.querySelector('.navbar');
-      window.addEventListener('scroll', () => {
-        nav?.classList.toggle('scrolled', window.scrollY > 60);
-      });
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `
+          // Navbar scroll
+          const nav = document.querySelector('.navbar');
+          window.addEventListener('scroll', () => {
+            nav?.classList.toggle('scrolled', window.scrollY > 60);
+          });
 
-      // Mobile menu
-      const hamburger = document.getElementById('hamburger');
-      const mobileNav = document.getElementById('mobile-nav');
-      const closeBtn = document.getElementById('mobile-close');
-      hamburger?.addEventListener('click', () => mobileNav?.classList.add('open'));
-      closeBtn?.addEventListener('click', () => mobileNav?.classList.remove('open'));
-      document.querySelectorAll('#mobile-nav a').forEach(a => {
-        a.addEventListener('click', () => mobileNav?.classList.remove('open'));
-      });
+          // Mobile menu
+          const hamburger = document.getElementById('hamburger');
+          const mobileNav = document.getElementById('mobile-nav');
+          const closeBtn = document.getElementById('mobile-close');
+          hamburger?.addEventListener('click', () => mobileNav?.classList.add('open'));
+          closeBtn?.addEventListener('click', () => mobileNav?.classList.remove('open'));
+          document.querySelectorAll('#mobile-nav a').forEach(a => {
+            a.addEventListener('click', () => mobileNav?.classList.remove('open'));
+          });
 
-      // Fade in observer
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
-      }, { threshold: 0.12 });
-      document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+          // Fade in observer
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+          }, { threshold: 0.12 });
+          document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-      // Back to top
-      const btt = document.getElementById('back-to-top');
-      window.addEventListener('scroll', () => {
-        btt?.classList.toggle('visible', window.scrollY > 400);
-      });
-      btt?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+          // Back to top
+          const btt = document.getElementById('back-to-top');
+          window.addEventListener('scroll', () => {
+            btt?.classList.toggle('visible', window.scrollY > 400);
+          });
+          btt?.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
-      // Schedule tabs
-      window.showTab = (id, btn) => {
-        document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
-        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-        document.getElementById(id)?.classList.add('active');
-        btn.classList.add('active');
-      };
+          // Schedule tabs
+          window.showTab = (id, btn) => {
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(id)?.classList.add('active');
+            btn.classList.add('active');
+          };
 
-      // FAQ accordion
-      window.toggleFaq = (btn) => {
-        const item = btn.closest('.faq-item');
-        const isOpen = item.classList.contains('open');
-        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-        if (!isOpen) item.classList.add('open');
-      };
+          // FAQ accordion
+          window.toggleFaq = (btn) => {
+            const item = btn.closest('.faq-item');
+            const isOpen = item.classList.contains('open');
+            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+            if (!isOpen) item.classList.add('open');
+          };
 
-      // Form handler
-      window.handleForm = (e) => {
-        e.preventDefault();
-        const toast = document.getElementById('toast');
-        if (toast) {
-          toast.classList.add('show');
-          setTimeout(() => toast.classList.remove('show'), 4000);
-        }
-        e.target.reset();
-      };
-    `}} />
-    async function handleForm(event) {
-  event.preventDefault();
+          // Form handler
+          window.handleForm = async (e) => {
+            e.preventDefault();
 
-  const form = event.target;
+            const form = e.target;
 
-  const data = {
-    name: form.name.value,
-    phone: form.phone.value,
-    email: form.email.value,
-    studio: form.studio.value,
-  };
+            const data = {
+              name: form.name.value,
+              phone: form.phone.value,
+              email: form.email.value,
+              studio: form.studio.value,
+            };
 
-  const res = await fetch("https://teu-worker-url.workers.dev", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  });
+            const res = await fetch("https://db.magritopedro.workers.dev", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            });
 
-  const result = await res.json();
+            const result = await res.json();
 
-  if (result.success) {
-    alert("Enviado com sucesso!");
-    form.reset();
-  } else {
-    alert("Erro ao enviar.");
-  }
-};
-    }} />
-  )
+            const toast = document.getElementById('toast');
+
+            if (result.success) {
+              toast?.classList.add('show');
+              setTimeout(() => toast?.classList.remove('show'), 4000);
+              form.reset();
+            } else {
+              alert("Erro ao enviar.");
+            }
+          };
+        `,
+      }}
+    />
+  );
 }
-
 export default app
