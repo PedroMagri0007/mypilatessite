@@ -115,7 +115,7 @@ app.get('/', (c) => {
           <div class="classes-grid-1">
             <div class="class-card fade-in">
               <div class="class-card-img">
-                <img src="/static/img/IMG_1252.jpg" alt="Reformer Pilates" />
+                <img src="/static/img/image00106.jpg" alt="Reformer Pilates" />
               </div>
               <div class="class-card-body">
                 <span class="class-tag">Todos os níveis</span>
