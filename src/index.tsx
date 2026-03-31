@@ -1107,7 +1107,7 @@ function scripts() {
           };
 
           // Form handler
-          window.handleForm(event) = async (e) => {
+          window.handleForm = async (event) => {
             e.preventDefault();
 
             const form = e.target;
