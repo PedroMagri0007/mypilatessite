@@ -1114,7 +1114,7 @@ function scripts() {
         }
         e.target.reset();
       };
-    ´}} />
+    `}} />
     async function handleForm(event) {
   event.preventDefault();
 
