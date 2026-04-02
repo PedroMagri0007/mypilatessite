@@ -1108,9 +1108,9 @@ function scripts() {
 
           // Form handler
           window.handleForm = async (event) => {
-            e.preventDefault();
+            event.preventDefault();
 
-            const form = e.target;
+            const form = event.target;
 
             const data = {
               name: form.name.value,
