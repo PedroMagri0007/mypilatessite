@@ -1118,8 +1118,11 @@ function scripts() {
               email: form.email.value,
               studio: form.studio.value,
               class_type: form.class_type.value,
-              date: form.date.value || null,
             };
+
+            if (form.date.value) {
+              data.date = form.date.value;
+            }
 
             const res = await fetch("https://db.magritopedro.workers.dev", {
               method: "POST",
