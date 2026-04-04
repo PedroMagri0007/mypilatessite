@@ -853,7 +853,7 @@ app.get('/contactos', (c) => {
             <div class="contact-form fade-in">
               <h3 style="font-family:var(--font-serif);font-size:1.7rem;margin-bottom:8px;">Envia-nos uma mensagem</h3>
               <p style="margin-bottom:28px;font-size:0.9rem;">Respondemos em menos de 24 horas nos dias úteis.</p>
-              <form onsubmit="handleForm(event)">
+              <form onsubmit="handleForm(e)">
                 <div class="form-row">
                   <div class="form-group">
                     <label>Nome *</label>
@@ -1123,6 +1123,41 @@ function scripts() {
             };
 
             const res = await fetch("https://db.magritopedro.workers.dev", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            });
+
+            const result = await res.json();
+
+            const toast = document.getElementById('toast');
+
+            if (result.success) {
+              toast?.classList.add('show');
+              setTimeout(() => toast?.classList.remove('show'), 4000);
+              form.reset();
+            } else {
+              alert("Erro ao enviar.");
+            }
+          };
+          
+          // contact
+          window.handleForm = async (e) => {
+            e.preventDefault();
+
+            const form = e.target;
+
+            const data = {
+              name: form.name.value,
+              phone: form.phone.value,
+              email: form.email.value,
+              subject: form.subject.value,
+              message: form.class_type.value,
+            };
+
+            const res = await fetch("https://dbct.magritopedro.workers.dev", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
