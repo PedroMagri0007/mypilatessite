@@ -1119,6 +1119,7 @@ function scripts() {
               studio: form.studio.value,
               class_type: form.class_type.value,
               date: form.date?.value || null,
+              notes: form.notes?.value || null,
             };
 
             const res = await fetch("https://db.magritopedro.workers.dev", {
