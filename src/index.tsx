@@ -853,7 +853,7 @@ app.get('/contactos', (c) => {
             <div class="contact-form fade-in">
               <h3 style="font-family:var(--font-serif);font-size:1.7rem;margin-bottom:8px;">Envia-nos uma mensagem</h3>
               <p style="margin-bottom:28px;font-size:0.9rem;">Respondemos em menos de 24 horas nos dias úteis.</p>
-              <form onsubmit="handleForm(e)">
+              <form id="contactForm">
                 <div class="form-row">
                   <div class="form-group">
                     <label>Nome *</label>
@@ -1177,6 +1177,7 @@ function scripts() {
               alert("Erro ao enviar.");
             }
           };
+          document.getElementById('contactForm').addEventListener('submit', handleForm);
         `,
       }}
     />
