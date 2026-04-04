@@ -1154,7 +1154,7 @@ function scripts() {
               phone: form.phone.value,
               email: form.email.value,
               subject: form.subject.value,
-              message: form.class_type.value,
+              message: form.message.value,
             };
 
             const res = await fetch("https://dbct.magritopedro.workers.dev", {
