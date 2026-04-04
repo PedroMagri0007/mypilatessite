@@ -1144,7 +1144,7 @@ function scripts() {
           };
           
           // contact
-          window.handleForm = async (e) => {
+          window.handleContactForm = async (e) => {
             e.preventDefault();
 
             const form = e.target;
@@ -1177,7 +1177,7 @@ function scripts() {
               alert("Erro ao enviar.");
             }
           };
-          document.getElementById('contactForm').addEventListener('submit', handleForm);
+          document.getElementById('contactForm').addEventListener('submit', handleContactForm);
         `,
       }}
     />
