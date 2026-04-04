@@ -1117,6 +1117,8 @@ function scripts() {
               phone: form.phone.value,
               email: form.email.value,
               studio: form.studio.value,
+              class_type: form.class_type.value,
+              date: form.date.value,
             };
 
             const res = await fetch("https://db.magritopedro.workers.dev", {
