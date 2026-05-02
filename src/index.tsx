@@ -609,7 +609,7 @@ app.get('/studios', (c) => {
           <div class="studios-grid">
             <div class="studio-card fade-in">
               <div class="studio-img">
-                <img src="https://sspark.genspark.ai/cfimages?u1=41ckaJSzm%2BoHHJ%2F8y8ZCr1mmztMgNwIVhUt49n3l4fQHRzO0DDmOdZVSgUEXmzDndoVEP59NH26MJ2Kh9KwKUvMlgxLhZn0R0numYvgeVf9J8A%2B81xZPKqTzVs0xSsJB8x3S&u2=cDCaCx4rp%2BGkoKAW&width=2560" alt="Studio Carnaxide" />
+                <img src="/static/img/carnaxide.jpeg" />
               </div>
               <div class="studio-body">
                 <span class="studio-tag"><i class="fas fa-map-marker-alt"></i> Carnaxide</span>
@@ -633,7 +633,7 @@ app.get('/studios', (c) => {
 
             <div class="studio-card fade-in">
               <div class="studio-img">
-                <img src="https://sspark.genspark.ai/cfimages?u1=FCJKGHbO03s2Yq%2Bw4Gaiyc9hDRKmXmKyD7t5H4mHkrYvNYlt18fFVsli9e3gfxLA2h2eXEkrZ8OoP65Qnl1JghHiiUvC758DtMf5nmxpWB0uMCjjHlRu%2B%2BPywL0CvbZBp7Vd8qF0aw0JD78IhQ6U0%2BN05s7tLJy0xhBegXhtNm3MQMc23nmlvT1yxj0uQIGa9%2BYcCDfk2zp2TWUpXUB26w%3D%3D&u2=lKeg4i4UkUmhPP6e&width=2560" alt="Studio Oeiras" />
+                <img src="/static/img/lagoas.jpg" />
               </div>
               <div class="studio-body">
                 <span class="studio-tag"><i class="fas fa-map-marker-alt"></i> Oeiras</span>
