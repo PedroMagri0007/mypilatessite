@@ -609,7 +609,7 @@ app.get('/studios', (c) => {
           <div class="studios-grid">
             <div class="studio-card fade-in">
               <div class="studio-img">
-                <img src="/static/img/carnaxide.jpeg" />
+                <img src="/static/img/carnaxide.JPEG" />
               </div>
               <div class="studio-body">
                 <span class="studio-tag"><i class="fas fa-map-marker-alt"></i> Carnaxide</span>
